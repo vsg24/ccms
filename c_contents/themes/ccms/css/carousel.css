@@ -1,0 +1,37 @@
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+.ccbig {
+    width: 900px;
+}
+.carousel-control{
+    position:relative;
+    width:300px;
+    /*margin:0 auto;*/
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.carousel-indicators li {
+    background-color: #999 !important;
+    background-color: rgba(70,70,70,.25) !important;
+}
+
+.carousel-indicators .active {
+    background-color: #444 !important;
+}
+
+.carousel-indicators{
+    color: #000000;
+    bottom: 5px;
+    z-index: inherit; /* fixing left and right buttons */
+}
+.mdi_48::before {
+    font-size: 48px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
